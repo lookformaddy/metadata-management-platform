@@ -1,0 +1,6 @@
+# Runtime: Python 3.10+ standard library only. No runtime dependencies.
+# Test dependency:
+pytest>=8.0
+# Optional service layer (FastAPI adapter in src/metadata_platform/service.py):
+fastapi>=0.110
+uvicorn>=0.29
